@@ -2,9 +2,15 @@
 
 A high-energy, editorial refresh for broadcaster, speaker, host, voice actor, and community connector Tony Clyburn.
 
+## Live website
+
+### [View Tony Clyburn's live website →](https://tony-clyburn.cheery-finch-7775.chatgpt.site)
+
+The public website requires no account or sign-in.
+
 ## Direction
 
-The experience translates Tony's broadcast presence into a bold digital identity: black, electric yellow, cobalt, and orange; oversized typography; signal-inspired motion; direct storytelling; and a clear booking path.
+The experience translates Tony's broadcast presence into a mature 1980s radio and television identity: midnight navy, cyan, burgundy, warm chrome, analog signal texture, strong editorial typography, and a clear booking path. Constant motion was intentionally removed to keep the experience confident and easy to navigate.
 
 ## Run locally
 
