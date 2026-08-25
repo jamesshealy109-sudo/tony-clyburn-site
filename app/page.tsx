@@ -52,7 +52,7 @@ export default function Home() {
           <a className="scroll-cue" href="#about">Keep scrolling <span>↓</span></a>
         </section>
 
-        <div className="signal-bar" aria-label="Tony Clyburn specialties"><div><span>VOICEOVERS</span><b>✦</b><span>PUBLIC SPEAKING</span><b>✦</b><span>EVENT HOSTING</span><b>✦</b><span>COMMUNITY IMPACT</span><b>✦</b><span>VOICEOVERS</span><b>✦</b><span>PUBLIC SPEAKING</span><b>✦</b><span>EVENT HOSTING</span><b>✦</b><span>COMMUNITY IMPACT</span><b>✦</b></div></div>
+        <div className="signal-bar" aria-label="Tony Clyburn specialties"><div><span>VOICEOVERS</span><b>◆</b><span>PUBLIC SPEAKING</span><b>◆</b><span>EVENT HOSTING</span><b>◆</b><span>COMMUNITY IMPACT</span></div></div>
 
         <section className="section about-section" id="about">
           <div className="section-shell about-grid">

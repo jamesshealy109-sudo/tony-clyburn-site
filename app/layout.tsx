@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: 'Radio personality, voice actor, speaker, host, and community connector Tony Clyburn.',
     url: '/',
     siteName: 'Tony Clyburn',
-    images: [{ url: '/og.png', width: 1732, height: 910, alt: 'Tony Clyburn — One Voice. Big Energy. Real Impact.' }],
+    images: [{ url: '/og.png', width: 1738, height: 905, alt: 'Tony Clyburn — One Voice. Big Energy. Real Impact.' }],
     locale: 'en_US',
     type: 'website',
   },
