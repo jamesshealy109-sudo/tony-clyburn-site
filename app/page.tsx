@@ -189,7 +189,7 @@ export default function Home() {
           <p>Crisp. Clear. Midwestern resonance.</p>
           <div className="socials"><a href="https://facebook.com/TonyClyburnSC" target="_blank" rel="noreferrer">Facebook ↗</a><a href="https://twitter.com/myjobandlovinit" target="_blank" rel="noreferrer">X / Twitter ↗</a></div>
         </div>
-        <div className="footer-bottom"><span>© {new Date().getFullYear()} Tony Clyburn</span><span>A voice that cares as much as you.</span></div>
+        <div className="footer-bottom"><span>© {new Date().getFullYear()} Tony Clyburn</span><span>A voice that cares as much as you.</span><a href="https://strataworks.tech" target="_blank" rel="noreferrer">Website by StrataWorks ↗</a></div>
       </footer>
     </main>
   );
