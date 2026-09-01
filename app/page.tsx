@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import { FormEvent, useState } from 'react';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
 const voiceQualities = [
   { number: '01', title: 'Soft & cuddly', note: 'Close, reassuring, familiar.' },
   { number: '02', title: 'Warm & compassionate', note: 'Human, generous, sincerely felt.' },
@@ -62,7 +64,7 @@ export default function Home() {
             <div className="hero-portrait">
               <div className="portrait-backdrop" aria-hidden="true">TC</div>
               <div className="portrait-frame">
-                <Image src="/images/tony-client-portrait.jpg" alt="Tony Clyburn standing in front of a brick wall" fill priority sizes="(max-width: 860px) 100vw, 43vw" />
+                <Image src={`${basePath}/images/tony-client-portrait.jpg`} alt="Tony Clyburn standing in front of a brick wall" fill priority sizes="(max-width: 860px) 100vw, 43vw" />
               </div>
               <div className="portrait-caption"><strong>TONY CLYBURN</strong><span>COLUMBIA · SOUTH CAROLINA</span></div>
               <div className="voice-mark" aria-hidden="true"><i /><i /><i /><i /><i /><i /><i /></div>
@@ -107,15 +109,15 @@ export default function Home() {
           </div>
           <div className="section-shell archive-grid">
             <figure className="archive-card archive-color">
-              <div><Image src="/images/tony-color-archive.jpg" alt="Early color portrait of Tony Clyburn smiling against a blue studio background" fill sizes="(max-width: 760px) 100vw, 36vw" /></div>
+              <div><Image src={`${basePath}/images/tony-color-archive.jpg`} alt="Early color portrait of Tony Clyburn smiling against a blue studio background" fill sizes="(max-width: 760px) 100vw, 36vw" /></div>
               <figcaption><span>01</span><strong>Portrait</strong></figcaption>
             </figure>
             <figure className="archive-card archive-headphones">
-              <div><Image src="/images/tony-headphones-archive.jpg" alt="Tony Clyburn wearing headphones in a black-and-white archive photograph" fill sizes="(max-width: 760px) 100vw, 25vw" /></div>
+              <div><Image src={`${basePath}/images/tony-headphones-archive.jpg`} alt="Tony Clyburn wearing headphones in a black-and-white archive photograph" fill sizes="(max-width: 760px) 100vw, 25vw" /></div>
               <figcaption><span>02</span><strong>On air</strong></figcaption>
             </figure>
             <figure className="archive-card archive-who">
-              <div><Image src="/images/the-who-archive.jpg" alt="Colorful collage of The Who photographs, posters, and music-industry memorabilia" fill sizes="(max-width: 760px) 100vw, 34vw" /></div>
+              <div><Image src={`${basePath}/images/the-who-archive.jpg`} alt="Colorful collage of The Who photographs, posters, and music-industry memorabilia" fill sizes="(max-width: 760px) 100vw, 34vw" /></div>
               <figcaption><span>03</span><strong>The archive</strong></figcaption>
             </figure>
           </div>
@@ -123,10 +125,10 @@ export default function Home() {
 
         <section className="civic-section" aria-label="Columbia, South Carolina landmarks">
           <div className="civic-image civic-main">
-            <Image src="/images/adluh-flour-columbia.jpg" alt="Historic Adluh Flour mill beneath a deep blue Columbia sky" fill sizes="(max-width: 760px) 100vw, 72vw" />
+            <Image src={`${basePath}/images/adluh-flour-columbia.jpg`} alt="Historic Adluh Flour mill beneath a deep blue Columbia sky" fill sizes="(max-width: 760px) 100vw, 72vw" />
           </div>
           <div className="civic-image civic-side">
-            <Image src="/images/south-carolina-state-house.jpg" alt="South Carolina State House beneath a clear blue sky" fill sizes="(max-width: 760px) 100vw, 28vw" />
+            <Image src={`${basePath}/images/south-carolina-state-house.jpg`} alt="South Carolina State House beneath a clear blue sky" fill sizes="(max-width: 760px) 100vw, 28vw" />
           </div>
           <div className="civic-overlay">
             <p>ROOTED HERE.<br />READY FOR<br /><em>WHAT&apos;S NEXT.</em></p>
